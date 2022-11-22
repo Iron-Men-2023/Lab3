@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 import './App.css';
 import Navbar from "./Navbar";
 import image from "./group.jpeg"
+import Adnane from './adnane';
 
 function App() {
   return (
@@ -10,10 +11,12 @@ function App() {
 
       <Router>
           <Navbar/>
-          <img src={image}/>
+          <div className='Default'> 
+            <img src={image}/>
+          </div>
+
         <Routes>
-
-
+        <Route path='/adnane' element={<Adnane/>} />
         </Routes>
       </Router>
     </div>
