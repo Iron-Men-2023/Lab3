@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "./Components/Navbar";
 import image from "./group.jpeg"
 import JoslinPage from "./Components/JoslinPage";
+
 function App() {
   return (
     <div className="App">
