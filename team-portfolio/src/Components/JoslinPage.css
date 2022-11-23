@@ -12,3 +12,16 @@
     from {transform: translateY(0px);}
     to {transform: translateY(20px);}
 }
+.float{
+    animation-name : mymove;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 1s;
+}
+.title{
+    color: white;
+    margin-right: 60vw;
+}
+.row{
+    display: flex;
+}

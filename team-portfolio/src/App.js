@@ -3,7 +3,7 @@ import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 import './App.css';
 import Navbar from "./Components/Navbar";
 import image from "./group.jpeg"
-import TeamPage from "./Components/TeamPage";
+import JoslinPage from "./Components/JoslinPage";
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,7 @@ function App() {
           <Navbar/>
 
         <Routes>
-            <Route path='/' element={<TeamPage/>}/>
+            <Route path='/joslin' element={<JoslinPage/>}/>
 
 
         </Routes>
