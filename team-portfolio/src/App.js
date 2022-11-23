@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 import './App.css';
-import Navbar from "./Navbar";
+import Navbar from "./Components/Navbar";
 import image from "./group.jpeg"
+import TeamPage from "./Components/TeamPage";
 function App() {
   return (
     <div className="App">
 
       <Router>
           <Navbar/>
-          <img src={image}/>
+
         <Routes>
+            <Route path='/' element={<TeamPage/>}/>
 
 
         </Routes>
