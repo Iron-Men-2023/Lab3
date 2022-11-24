@@ -3,22 +3,15 @@ import profile from "./images/Adnane-profile-picture.jpg"
 import './adnane.css'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-const slideImages = [
-	{
-		url: './image/French-flag.png',
-		caption: 'Slide 1'
-	},
-	{
-		url: './image/Moroccan-flag.png',
-		caption: 'Slide 2'
-	},
-	{
-		url: {profile},
-		caption: 'Slide 3'
-	},
-];
+
 
 const Adnane = () => {
+	const images = [
+		"team-portfolio/src/images/French flag.png",
+		"https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+		"https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+	];
+
 	return (
 		<body>
 			<article class="article">
@@ -42,22 +35,28 @@ const Adnane = () => {
 						<header>
 							<h2> A little to know about me...</h2>
 						</header>
-
+						<Slide>
+							<div className="each-slide-effect">
+								<div style={{ backgroundImage: `url(${profile})` }}>
+									<span>Slide 1</span>
+								</div>
+							</div>
+							<div className="each-slide-effect">
+								<div style={{ 'backgroundImage': `url(${images[1]})` }}>
+									<span>Slide 2</span>
+								</div>
+							</div>
+							<div className="each-slide-effect">
+								<div style={{ 'backgroundImage': `url(${images[2]})` }}>
+									<span>Slide 3</span>
+								</div>
+							</div>
+						</Slide>
 					</div>
 				</div>
 			</article>
 
-			<div className="slide-container">
-							<Slide>
-								{slideImages.map((slideImage, index) => (
-									<div className="each-slide" key={index}>
-										<div style={{ 'backgroundImage': `url(${slideImage.url})` }}>
-											<span>{slideImage.caption}</span>
-										</div>
-									</div>
-								))}
-							</Slide>
-						</div>
+
 		</body>
 
 
