@@ -4,12 +4,12 @@ import "../App.css"
 import {Link} from "react-router-dom";
 
 function Option(props) {
-    const {title} = props
+    const {title,link} = props
     return (
 
         <div  >
 
-            <Link to='/joslin' className='option'>
+            <Link to={link} className='option'>
                 <h2 className="h2">{title}</h2>
             </Link>
         </div>

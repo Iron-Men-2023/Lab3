@@ -11,18 +11,20 @@ function JoslinPage(props) {
             <div className='page'>
                 <div className="row">
                     <h1 className="title">Welcome to Joslin's World</h1>
-                    <ExternalLink href="https://www.linkedin.com/in/saanbé-joslin-somé-1726581a9" className='nav-links'>
-                        <img src ={linkedIn}/>
-                    </ExternalLink>
+
                 </div>
+
                 <div className='float'>
                     <div className='row'>
-                        <Option title="Experience"/>
-                        <Option title='Education'/>
+                        <Option title="Experience" link="/joslin/Experience"/>
+                        <Option title='Education' />
+                        <ExternalLink href="https://www.linkedin.com/in/saanbé-joslin-somé-1726581a9" className='nav-links linkedin'>
+                            <img src ={linkedIn}/>
+                        </ExternalLink>
                     </div>
                     <div className='row'>
                         <Option title="Resume"/>
-                        <Option title="Projects"/>
+                        <Option title="Projects" link="/joslin/Projects"/>
                     </div>
                 </div>
                 <div className="row">
@@ -33,8 +35,7 @@ function JoslinPage(props) {
                 </div>
 
             </div>
-            <div className="bottom">
-            </div>
+
         </div>
     );
 }
