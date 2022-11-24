@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "./Components/Navbar";
 import image from "./group.jpeg"
 import JoslinPage from "./Components/JoslinPage";
+import JoslinExperience from "./Components/JoslinExperience";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
 
         <Routes>
             <Route path='/joslin' element={<JoslinPage/>}/>
+            <Route path='/joslin/Experience' element={<JoslinExperience/>}/>
 
 
         </Routes>

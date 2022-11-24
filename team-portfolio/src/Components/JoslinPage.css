@@ -35,9 +35,14 @@
     animation-direction : alternate;
     animation-duration : 1s;
 }
+.linkedin{
+    margin-left: 60vw;
+
+}
 .title{
     color: white;
     margin-right: 60vw;
+    position: sticky;
 }
 .row{
     display: flex;
