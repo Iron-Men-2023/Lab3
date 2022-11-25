@@ -33,7 +33,7 @@ const Adnane = () => {
 				</div>
 			</article>
 
-			<article class="article">
+			<article class="article" >
 				<div class="adnane-container">
 					<div class="adnane-text-area">
 						<header>
@@ -41,7 +41,8 @@ const Adnane = () => {
 						</header>
 						<Slide>
 							<div className="each-slide-effect">
-								<div style={{ backgroundImage: `url(${french})` }}>
+								<div style={{ 
+									backgroundImage: `url(${french})` }}>
 									<span>Slide 1</span>
 								</div>
 							</div>
@@ -62,23 +63,60 @@ const Adnane = () => {
 
 			<article class="article">
 				<div class="adnane-container">
+				<h1> My Education</h1>
 					<div class="row aln-center">
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box-style1">
 								<div class="image-fit"><img src={undergrad}/></div>
 								<h3><u><a>B.S.E Electrical & Computer Engineering</a></u></h3>
+								<u><a href="https://catalog.registrar.uiowa.edu/liberal-arts-sciences/computer-science/computer-science-minor/"
+								target="_blank" style={{"color": 'black'}}>
+								<p style={{"margin":'2.5%'}}>Computer Science Minor</p>
+							</a></u>
+						University of Iowa
+						<p>August 2019 - May 2023</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 						<section class="box-style1">
 								<div class="image fit"><img src={master} /></div>
 								<h3><u><a>M.S Electrical & Computer Engineering</a></u></h3>
+								<u><a href="https://ece.engineering.uiowa.edu/undergraduate/joint-bsms-degree-program-u2g"
+								target="_blank" style={{"color":'black'}}>
+								<p style={{"margin":'3%'}}>U2G Program</p>
+							</a></u>
+						University of Iowa
+						<p>August 2019 - May 2023</p>
 						</section>
 						</div>
-
 					</div>
 				</div>
 			</article>
+
+			
+
+		<article>
+		<div class="adnane-container">
+			<h2>Connect with me here! </h2>
+
+			<ul class="social" >
+				<li><a href="mailto: ezouhriadnane@outlook.com" class="fas fa-inbox" ></a></li>
+				<li><a href="https://www.linkedin.com/in/adnane-ezouhri/" class="icon brands fa-linkedin-in"
+						target="_blank"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/aezouhri" class="icon brands fa-github" target="_blank"><span
+							class="label">Github</span></a></li>
+				<li><a href="https://www.instagram.com/adnane971/" class="icon brands fa-instagram"
+						target="_blank"><span class="label">Instagram</span></a></li>
+			</ul>
+
+
+			<footer>
+				<ul id="copyright">
+					<li>Copyright &copy; 2022 Adnane Ezouhri</li>
+				</ul>
+			</footer>
+		</div>
+	</article>
 
 			
 

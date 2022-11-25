@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import './App.css';
 import Navbar from "./Navbar";
 import image from "./group.jpeg"
@@ -10,13 +10,9 @@ function App() {
     <div className="App">
 
       <Router>
-          <Navbar/>
-          <div className='Default'> 
-            <img src={image}/>
-          </div>
-
+        <Navbar />
         <Routes>
-        <Route path='/adnane' element={<Adnane/>} />
+          <Route path='/adnane' element={<Adnane />} />
         </Routes>
       </Router>
     </div>
