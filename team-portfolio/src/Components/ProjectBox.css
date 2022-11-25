@@ -1,0 +1,16 @@
+.Box{
+    border-radius: 10px;
+    border: white;
+    background-color: white;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    margin-left: 3vw;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+.img{
+    height: 75%;
+}

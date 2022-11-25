@@ -1,0 +1,18 @@
+.section{
+    background-color: #3b3939;
+    color: #1e4ba8;
+    width: 80vw;
+    height: 35vh;
+    margin-left: 10vw;
+    border-radius: 20px;
+    margin-top: 2vh;
+}
+.title{
+    color: #5289fa;
+    margin-right: 25vw;
+}
+
+.li{
+    color: #ffffff;
+    margin-right: 30vw;
+}

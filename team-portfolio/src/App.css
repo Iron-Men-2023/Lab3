@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: black;
+  height: 75vh;
 }
 
 .App-logo {
@@ -37,7 +39,7 @@
   }
 }
 .navbar {
-  background: #a181c6;
+  background: white;
   height: 100px;
   display: flex;
   justify-content: center;
