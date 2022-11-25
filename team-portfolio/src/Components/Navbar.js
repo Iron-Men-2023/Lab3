@@ -24,9 +24,9 @@ function Navbar(props) {
                         </Link>
                     </li>
                     <li>
-                        <ExternalLink href="https://aezouhri.github.io/" className='nav-links'>
+                        <Link to="/adnane" className='nav-links'>
                             <h2>Adnane</h2>
-                        </ExternalLink>
+                        </Link>
 
                     </li>
                     <li>

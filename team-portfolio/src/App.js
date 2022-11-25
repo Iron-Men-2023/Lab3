@@ -8,6 +8,7 @@ import JoslinExperience from "./Components/JoslinExperience";
 import JoslinProjects from "./Components/JoslinProjects";
 import JoslinResume from "./Components/JoslinResume";
 import JoslinAbout from "./Components/JoslinAbout";
+import Adnane from './Components/adnane';
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,7 @@ function App() {
             <Route path='/joslin/Projects' element={<JoslinProjects/>}/>
             <Route path='/joslin/Resume' element={<JoslinResume/>}/>
             <Route path='/joslin/About' element={<JoslinAbout/>}/>
-
+            <Route path='/adnane' element={<Adnane/>} />
 
         </Routes>
       </Router>
