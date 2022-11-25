@@ -1,0 +1,68 @@
+.paragraph{
+    background-color: #5289fa;
+    height: 20vh;
+}
+.h1{
+    color: white;
+    margin-right: 28vw;
+}
+.h12{
+    color: white;
+    margin-right: 40vw;
+}
+.h121{
+    color: white;
+    margin-right: 30vw;
+}
+.h122{
+    color: white;
+    margin-right: 16vw;
+}
+.h1211{
+    color: white;
+    margin-right: 18vw;
+}
+.connect{
+    margin-right: 78vw;
+}
+.phone{
+    margin-right:73vw ;
+}
+.linkedin2{
+    margin-right: 80vw;
+}
+.h1link{
+    color: white;
+    margin-right: 10vw;
+}
+.about{
+    background-color: black;
+    height: 150%;
+}
+.text{
+    margin-left: 4vw;
+}
+.aboutTitle{
+    margin-top: 10vh;
+    margin-right: 55vw;
+    color: white;
+
+}
+.links{
+    padding: 20px;
+    border-radius: 20px;
+}
+.in{
+    margin-left: 3vw;
+}
+.fb{
+    height: 80px;
+    border-radius: 20px;
+}
+.links:hover {
+    transition: all 0.3s ease-out;
+    background: #ffffff;
+    color: #242424;
+}
+.joslinpic{
+}
