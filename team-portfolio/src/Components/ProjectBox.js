@@ -1,8 +1,6 @@
 import React from 'react';
 import "./ProjectBox.css"
-import coda from "../img/coda.png"
-import back from "../img/arrow.png"
-import {ExternalLink} from "react-external-link";
+
 function ProjectBox(props) {
     const {value} = props
     const {img, title, description,link} = value

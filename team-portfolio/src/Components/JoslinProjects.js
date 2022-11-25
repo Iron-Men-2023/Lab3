@@ -37,7 +37,7 @@ function JoslinProjects(props) {
                 <Link to="/joslin">
                     <img src={back} />
                 </Link>
-                <h1>My Projects</h1>
+                <h1 className= "h11">My Projects</h1>
 
             </div>
             <div className="row center">

@@ -17,13 +17,13 @@ function JoslinPage(props) {
                 <div className='float'>
                     <div className='row'>
                         <Option title="Experience" link="/joslin/Experience"/>
-                        <Option title='Education' />
+                        <Option title='About Me' link="/joslin/About"/>
                         <ExternalLink href="https://www.linkedin.com/in/saanbé-joslin-somé-1726581a9" className='nav-links linkedin'>
                             <img src ={linkedIn}/>
                         </ExternalLink>
                     </div>
                     <div className='row'>
-                        <Option title="Resume"/>
+                        <Option title="Resume" link="/joslin/Resume"/>
                         <Option title="Projects" link="/joslin/Projects"/>
                     </div>
                 </div>

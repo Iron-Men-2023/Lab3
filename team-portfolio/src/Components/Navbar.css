@@ -60,7 +60,9 @@
 
 .nav-links {
     display: flex;
-
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
 }
 .nav-links:hover {
     transition: all 0.3s ease-out;
