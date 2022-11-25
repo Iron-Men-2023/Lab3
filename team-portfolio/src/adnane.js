@@ -1,26 +1,30 @@
 import React from 'react';
 import profile from "./images/Adnane-profile-picture.jpg"
+import french from "./images/French flag.png"
+import morocco from "./images/Moroccan flag.png"
+import states from "./images/States flag.png"
+import undergrad from "./images/Undergrad-icon.jpg"
+import master from "./images/master-icon-20.jpg"
+
 import './adnane.css'
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+
+import 'bootstrap/dist/css/bootstrap.css';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 
 
 const Adnane = () => {
-	const images = [
-		"team-portfolio/src/images/French flag.png",
-		"https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-		"https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-	];
-
 	return (
 		<body>
 			<article class="article">
-				<div class="intro-container">
+				<div class="adnane-container">
 					<div class="circle" >
 						<img src={profile} />
 					</div>
 
-					<div class="intro-text-area">
+					<div class="adnane-text-area">
 						<header>
 							<h1>Hello there, it's <b>Adnane Ezouhri</b>.</h1>
 						</header>
@@ -30,24 +34,24 @@ const Adnane = () => {
 			</article>
 
 			<article class="article">
-				<div class="intro-container">
-					<div class="intro-text-area">
+				<div class="adnane-container">
+					<div class="adnane-text-area">
 						<header>
 							<h2> A little to know about me...</h2>
 						</header>
 						<Slide>
 							<div className="each-slide-effect">
-								<div style={{ backgroundImage: `url(${profile})` }}>
+								<div style={{ backgroundImage: `url(${french})` }}>
 									<span>Slide 1</span>
 								</div>
 							</div>
 							<div className="each-slide-effect">
-								<div style={{ 'backgroundImage': `url(${images[1]})` }}>
+								<div style={{ 'backgroundImage': `url(${morocco})` }}>
 									<span>Slide 2</span>
 								</div>
 							</div>
 							<div className="each-slide-effect">
-								<div style={{ 'backgroundImage': `url(${images[2]})` }}>
+								<div style={{ 'backgroundImage': `url(${states})` }}>
 									<span>Slide 3</span>
 								</div>
 							</div>
@@ -55,6 +59,28 @@ const Adnane = () => {
 					</div>
 				</div>
 			</article>
+
+			<article class="article">
+				<div class="adnane-container">
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box-style1">
+								<div class="image-fit"><img src={undergrad}/></div>
+								<h3><u><a>B.S.E Electrical & Computer Engineering</a></u></h3>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+						<section class="box-style1">
+								<div class="image fit"><img src={master} /></div>
+								<h3><u><a>M.S Electrical & Computer Engineering</a></u></h3>
+						</section>
+						</div>
+
+					</div>
+				</div>
+			</article>
+
+			
 
 
 		</body>

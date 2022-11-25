@@ -33,7 +33,7 @@
 
 }
 
-.intro-container
+.adnane-container
 {
 	background-color: beige;
 	box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
@@ -41,10 +41,26 @@
 	text-align: center;
 }
 
-.intro-text-area
+.adnane-text-area
 {
 	text-align: center;
 }
+
+.about-container
+{
+	background-color: beige;
+	box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+	padding: 3em 0 3em 0;
+	text-align: center;
+	
+}
+
+.container-text-area
+{
+	text-align: center;
+}
+
+
 
 
 .each-slide-effect > div {
@@ -61,3 +77,132 @@
 	background: #efefef;
 	text-align: center;
   }
+
+  .row {
+	display: flex;
+	flex-wrap: wrap;
+	/* box-sizing: border-box; */
+	align-items: stretch;
+}
+
+.row.aln-center {
+	justify-content: center;
+}
+
+.row>.col-1 {
+	width: 8.33333%;
+}
+
+.row>.off-1 {
+	margin-left: 8.33333%;
+}
+
+.row>.col-2 {
+	width: 16.66667%;
+}
+
+.row>.off-2 {
+	margin-left: 16.66667%;
+}
+
+.row>.col-3 {
+	width: 25%;
+}
+
+.row>.off-3 {
+	margin-left: 25%;
+}
+
+.row>.col-4 {
+	width: 33.33333%;
+}
+
+.row>.off-4 {
+	margin-left: 33.33333%;
+}
+
+.row>.col-5 {
+	width: 41.66667%;
+}
+
+.row>.off-5 {
+	margin-left: 41.66667%;
+}
+
+.row>.col-6 {
+	width: 50%;
+}
+
+.row>.off-6 {
+	margin-left: 50%;
+}
+
+.row>.col-7 {
+	width: 58.33333%;
+}
+
+.row>.off-7 {
+	margin-left: 58.33333%;
+}
+
+.row>.col-8 {
+	width: 66.66667%;
+}
+
+.row>.off-8 {
+	margin-left: 66.66667%;
+}
+
+.row>.col-9 {
+	width: 75%;
+}
+
+.row>.off-9 {
+	margin-left: 75%;
+}
+
+.row>.col-10 {
+	width: 83.33333%;
+}
+
+.row>.off-10 {
+	margin-left: 83.33333%;
+}
+
+.row>.col-11 {
+	width: 91.66667%;
+}
+
+.row>.off-11 {
+	margin-left: 91.66667%;
+}
+
+.row>.col-12 {
+	width: 100%;
+}
+
+.row>.off-12 {
+	margin-left: 100%;
+}
+
+.box {
+	background: #fff;
+	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	padding: 2em;
+}
+
+.box-style1 {
+	padding: 3em 2em 3.5em 2em;
+}
+
+.image {
+	display: inline-block;
+	position: relative;
+}
+
+.image.fit {
+	display: block;
+	width: 100%;
+}
+
