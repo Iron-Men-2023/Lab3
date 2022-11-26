@@ -11,8 +11,7 @@ import { Slide } from 'react-slideshow-image';
 import { Zoom } from 'react-slideshow-image';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+
 import ironMan from '../images/ironManAdnane.gif'
 import ironMan2 from '../images/ironManAdnane2.gif'
 import ironManJ from '../img/ironMan.gif'
