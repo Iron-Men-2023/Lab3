@@ -5,6 +5,7 @@ import linkedIn from "../img/linkedIn.jpg"
 import Option from "./option";
 import {ExternalLink} from "react-external-link";
 import IronMan from "../img/ironMan3.gif"
+import CommentBox from "./CommentBox";
 function JoslinPage(props) {
     return (
         <div className=''>
@@ -28,9 +29,13 @@ function JoslinPage(props) {
                     </div>
                 </div>
                 <div className="row">
-                    <img src={IronMan} className="ironMan"/>
+                    <CommentBox/>
+                    <div className="">
+                        <img src={IronMan} className="ironMan"/>
 
-                    <img src={Joslin} className="joslin"/>
+                        <img src={Joslin} className="joslin"/>
+                    </div>
+
 
                 </div>
 

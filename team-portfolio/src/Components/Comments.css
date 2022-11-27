@@ -1,0 +1,14 @@
+.text-bubble{
+    border-radius: 30px;
+    height: 5vh;
+    width: 70%;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.text-content {
+    
+}
+
+.label::first-letter{
+}
