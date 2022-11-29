@@ -1,0 +1,59 @@
+.comment{
+    background-color: cornflowerblue;
+    height: 40vh;
+    width: 24vw;
+    border-radius: 40px;
+    margin-left: 1vw;
+    margin-top: 4vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.line{
+    background-color: black;
+    width: 24vw;
+    height: 1vh;
+    margin-left: 1vw;
+
+}
+.input{
+    width: 23vw;
+    height: 6vh;
+    border-radius: 20px;
+    margin-top: 2vh;
+}
+.marg{
+    margin-left: 1vw;
+}
+.input2 {
+    width: 16vw;
+    height: 3vh;
+    border-radius: 20px;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.inputs{
+}
+.box-image{
+    height: 6vh;
+    width: 3vw;
+    background-color: black;
+    border-radius: 40px;
+    margin-left: 1vw;
+}
+.box-btn{
+    height: 5vh;
+    width: 5vw;
+    background-color: #38f141;
+    border-radius: 10px;
+    margin-left:  20vw;
+    margin-top: 2vh;
+
+}
+.box-btn:hover{
+    background-color: #0ebe17;
+}
+
+.send{
+
+}

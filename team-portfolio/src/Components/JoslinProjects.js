@@ -33,14 +33,14 @@ function JoslinProjects(props) {
             <br/>
             <br/>
             <br/>
-            <div className="row">
+            <div className="row1">
                 <Link to="/joslin">
                     <img src={back} />
                 </Link>
                 <h1 className= "h11">My Projects</h1>
 
             </div>
-            <div className="row center">
+            <div className="row1 center">
                 <ExternalLink href={values[counter*3-3].link} className='nav-links'>
                     <ProjectBox value={values[counter*3-3]}/>
                 </ExternalLink>

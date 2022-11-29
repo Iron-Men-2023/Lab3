@@ -10,7 +10,7 @@ function Option(props) {
         <div  >
 
             <Link to={link} className='option'>
-                <h2 className="h2">{title}</h2>
+                <h3 className="h2">{title}</h3>
             </Link>
         </div>
     );
