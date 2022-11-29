@@ -16,10 +16,6 @@ import ironMan from '../images/ironManAdnane.gif'
 import ironMan2 from '../images/ironManAdnane2.gif'
 import ironManJ from '../img/ironMan.gif'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
-
 
 const Adnane = () => {
     return (

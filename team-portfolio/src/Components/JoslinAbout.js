@@ -15,10 +15,10 @@ function JoslinAbout(props) {
             <Link to="/joslin" className="link">
                 <img src={Back} className="back"/>
             </Link>
-            <div className="row">
+            <div className="row1">
                 <div className="text">
                     <h1 className="aboutTitle">Hi, I'm Joslin 👋👋👋</h1>
-                    <h2 className="h1">
+                    <h2 className="h12">
                         Senior computer Science Engineering major at the University of Iowa.
                     </h2>
                     <h2 className="h12">
@@ -44,7 +44,7 @@ function JoslinAbout(props) {
             </div>
             <h1 className="connect">Connect with me:</h1>
             <br/>
-            <div className="row float">
+            <div className="row1 float">
                 <div >
                     <ExternalLink href="https://www.linkedin.com/in/saanbé-joslin-somé-1726581a9" >
                         <img src ={linkedIn} className="links in fb"/>
