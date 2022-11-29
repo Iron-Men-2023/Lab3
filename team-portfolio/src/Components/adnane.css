@@ -473,3 +473,14 @@ ul.social li a.fa-envelope {
 {
 	text-decoration: none;
 }
+
+.bottom-image{
+	height: 50vh;
+	width: 30%;
+	margin-right: 70vw;
+}
+.bottom{
+	opacity: 1;
+	background-color: rgba(1, 1, 1, 0.37);
+	height: 50vh;
+}

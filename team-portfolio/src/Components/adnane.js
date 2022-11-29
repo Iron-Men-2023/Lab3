@@ -15,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import ironMan from '../images/ironManAdnane.gif'
 import ironMan2 from '../images/ironManAdnane2.gif'
 import ironManJ from '../img/ironMan.gif'
+import PageWithComments from "./PageWithComments";
 
 
 const Adnane = () => {
@@ -96,7 +97,7 @@ const Adnane = () => {
                     </div>
                 </div>
             </article>
-
+            <PageWithComments/>
             <article class="article">
                 <div class="adnane-container">
                     <div class="adnane-text-area">
