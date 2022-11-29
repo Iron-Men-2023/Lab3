@@ -5,7 +5,7 @@ import linkedIn from "../img/linkedIn.jpg"
 import Option from "./option";
 import {ExternalLink} from "react-external-link";
 import IronMan from "../img/ironMan3.gif"
-import CommentBox from "./CommentBox";
+import PageWithComments from "./PageWithComments";
 function JoslinPage(props) {
     return (
         <div className=''>
@@ -35,7 +35,7 @@ function JoslinPage(props) {
                         <img src={Joslin} className="joslin"/>
                     </div>
 
-                    <CommentBox/>
+                    <PageWithComments/>
 
                 </div>
 
