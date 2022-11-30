@@ -5,6 +5,8 @@ import Navbar from "./Components/Navbar";
 import image from "./group.jpeg"
 
 import JoslinPage from "./Components/JoslinPage";
+import BensPage from "./Components/BensPage";
+
 import JoslinExperience from "./Components/JoslinExperience";
 import JoslinProjects from "./Components/JoslinProjects";
 import JoslinResume from "./Components/JoslinResume";
@@ -15,7 +17,7 @@ import Justin from "./Components/Justin"
 function App() {
   return (
     <div className="App" >
-      
+
       <Router>
           <Navbar/>
 
@@ -28,6 +30,9 @@ function App() {
             <Route path='/adnane' element={<Adnane/>} />
             <Route path='/Justin' element={<Justin/>} />
             <Route path='/' element={<Home/>} />
+            <Route path='/ben' element={<BensPage/>}/>
+            <Route path='/ben' element={<BensPage/>}/>
+
 
         </Routes>
       </Router>
