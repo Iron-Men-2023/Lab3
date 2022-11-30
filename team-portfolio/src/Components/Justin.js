@@ -3,7 +3,7 @@ import "./Justin.css"
 function Justin(props) {
     return (
         <div className="jpage">
-            <h1>Test</h1>
+            <h1>Test2</h1>
             <h3>asdasd</h3>
         </div>
     );
