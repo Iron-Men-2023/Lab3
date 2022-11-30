@@ -1,3 +1,22 @@
 .jpage{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.94);
+    width: 100vw;
+    height: 100vh;
+}
+
+.jimg{
+    width: 30vw;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left: 1vw;
+}
+
+.jh1{
+    color: green;
+    margin-top: 20vh;
+    margin-left: 30vw;
+}
+
+.down{
+
 }
