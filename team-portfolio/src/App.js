@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "./Components/Navbar";
 import image from "./group.jpeg"
 import JoslinPage from "./Components/JoslinPage";
+import BensPage from "./Components/BensPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
         <Routes>
             <Route path='/joslin' element={<JoslinPage/>}/>
+            <Route path='/ben' element={<BensPage/>}/>
 
 
         </Routes>
