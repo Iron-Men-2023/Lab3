@@ -14,34 +14,36 @@ import gram from "../img/gram.png";
 function Justin(props) {
     return (
         <div className="">
-            <div className="row1 down jpage">
-                <img src={JustinImg} className="jimg"/>
-                <div className="jtext">
-                    <h1 className="jh2"> Hi I'm</h1>
-                    <h1 className="jh1">Justin Kluesner</h1>
-                    <h2 className="jh2"> Electrical Engineer</h2>
-                    <br/>
-                    <br/>
-                    <h3 className="jh3">Senior Electrical Engineering student at the University of Iowa</h3>
-                    <h3 className="jh3">I dont know what to write here but feel like there should be text</h3>
-                    <h3 className="jh3">I dont know what to write here but feel like there should be text</h3>
-                    <h3 className="jh3">Born and raised in ..... Iowa </h3>
-                    <br/>
-                    <br/>
-                    <div className="row1">
-                            <a href="#education"><button className="jbtn">Education</button></a>
-                        <Link className="nav-links">
-                            <button className="jbtn">Resume</button>
-                        </Link>
-                        <a className="nav-links" href="#comment">
-                            <button className="jbtn">Comment</button>
-                        </a>
+            <div className="down jpage">
+                <a className="" href="#contact">
+                    <button className="rightbtn">Contact</button>
+                </a>
+                <div className="row1">
+                    <img src={JustinImg} className="jimg"/>
+                    <div className="jtext">
+                        <h1 className="jh2"> Hi I'm</h1>
+                        <h1 className="jh1">Justin Kluesner</h1>
+                        <h2 className="jh2"> Electrical Engineer</h2>
+                        <br/>
+                        <h3 className="jh3">Senior Electrical Engineering student at the University of Iowa</h3>
+                        <h3 className="jh3">I dont know what to write here but feel like there should be text</h3>
+                        <h3 className="jh3">I dont know what to write here but feel like there should be text</h3>
+                        <h3 className="jh3">Born and raised in ..... Iowa </h3>
+                        <br/>
+                        <div className="row1">
+                                <a href="#education" className="nav-links"><button className="jbtn">Education</button></a>
+                            <Link className="nav-links">
+                                <button className="jbtn">Resume</button>
+                            </Link>
+                            <a className="nav-links" href="#comment">
+                                <button className="jbtn">Comment</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
             <br/>
             <section id="education" className="jedu alignn">
-
                 <h1 className="">Education</h1>
                 <div className="row1">
                     <div className="col-4 col-6-medium col-12-small jlow">
@@ -64,36 +66,30 @@ function Justin(props) {
                         <Section2 title="Electronic Circuts"/>
                         <Section2 title="Communication Systems"/>
                         <Section2 title="Embedded Systems"/>
-
-
                     </div>
                 </div>
             </section>
             <section id="contact" className="jpage2">
+                <h1 className="phone">Connnect with me:</h1>
                 <div className="row1 float">
-                    <div >
-                        <ExternalLink href="https://www.linkedin.com/in/saanbé-joslin-somé-1726581a9" >
+                    <div>
+                        <ExternalLink href="https://www.linkedin.com/in/justin-kluesner-915b761a9?trk=people-guest_people_search-card" >
                             <img src ={linkedIn} className="links in fb"/>
                         </ExternalLink>
                     </div>
 
                     <div>
-                        <ExternalLink href="https://www.github.com/JoslinSome" >
+                        <ExternalLink href="https://github.com/Justin111300" >
                             <img src ={github} className='links fb'/>
                         </ExternalLink>
                     </div>
                     <div>
-                        <ExternalLink href="https://www.facebook.com/saanbe.some/" >
-                            <img src ={fb} className='links fb'/>
-                        </ExternalLink>
-                    </div>
-                    <div>
-                        <ExternalLink href="https://www.instagram.com/le_bessan_babyyy/" >
+                        <ExternalLink href="https://www.instagram.com/justin_kluesner1113/" >
                             <img src ={gram} className='links fb'/>
                         </ExternalLink>
                     </div>
                 </div>
-                <h1 className="phone"> Or Call: +13194001054</h1>
+                <h1 className="phone"> Or Call: +15632582589</h1>
             </section>
             <section id="comment">
                 <PageWithComments/>
