@@ -5,7 +5,9 @@ import pdfFile from '../assets/pdf/DeSollar_Ben_Resume.pdf'
 import electionPic from "../assets/img/ElectionSystemScreenshot.png";
 import machineLearningPic from "../assets/img/MLProjectPic.png";
 import vaccinePic from "../assets/img/VaccineProjectScreenshot.png";
+import benPic from "../assets/img/headshot.png";
 import PageWithComments from "./PageWithComments";
+import resume from "../assets/pdf/DeSollar_Ben_Resume.pdf";
 function BensPage(props) {
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
@@ -45,6 +47,9 @@ function BensPage(props) {
                             development as well as in machine learning. Open to all opportunities to learn new skills
                             and connect with various individuals.
                         </p>
+                        <div className="justify-content-center">
+                            <img src={benPic} className="img-fluid mb-3 mb-lg-0" alt="..."/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -53,6 +58,7 @@ function BensPage(props) {
             <div className="container px-4 px-lg-5">
                 <div className="row gx-4 gx-lg-5 justify-content-center">
                     <h1 className="text-white mb-4">Resume</h1>
+                    <a href={resume} target="_blank" className="resume-button"> Download my resume here! </a>
                     {/*<embed src="../assets/pdf/DeSollar_Ben_Resume.pdf" width="500px" height="900px"/>*/}
                 </div>
             </div>
