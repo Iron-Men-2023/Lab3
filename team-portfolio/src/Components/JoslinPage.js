@@ -29,17 +29,14 @@ function JoslinPage(props) {
                     </div>
                 </div>
                 <div className="row1">
-                    <div className="">
                         <img src={IronMan} className="ironMan"/>
 
                         <img src={Joslin} className="joslin"/>
-                    </div>
-
-                    <PageWithComments/>
 
                 </div>
 
             </div>
+            <PageWithComments/>
 
         </div>
     );

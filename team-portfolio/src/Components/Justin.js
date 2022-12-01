@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Justin.css"
-import JustinImg from "../img/Justin.jpg"
+import JustinImg from "../img/justin2.jpg"
 import {Link} from "react-router-dom";
+import PageWithComments from "./PageWithComments";
 function Justin(props) {
     return (
         <div className="jpage">
@@ -32,6 +33,8 @@ function Justin(props) {
                     </div>
                 </div>
             </div>
+            <br/>
+            <PageWithComments/>
         </div>
     );
 }
