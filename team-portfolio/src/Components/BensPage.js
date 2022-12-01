@@ -5,6 +5,7 @@ import pdfFile from '../assets/pdf/DeSollar_Ben_Resume.pdf'
 import electionPic from "../assets/img/ElectionSystemScreenshot.png";
 import machineLearningPic from "../assets/img/MLProjectPic.png";
 import vaccinePic from "../assets/img/VaccineProjectScreenshot.png";
+import PageWithComments from "./PageWithComments";
 function BensPage(props) {
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
@@ -112,6 +113,9 @@ function BensPage(props) {
                     </div>
                 </div>
             </div>
+            <div className="comment-section">
+                <PageWithComments/>
+            </div>
         </section>
 
         <section className="contact-section bg-black" id="contact">
@@ -151,6 +155,7 @@ function BensPage(props) {
                         </div>
                     </div>
                 </div>
+                <br></br>
                 <div className="social d-flex justify-content-center">
                     <a className="mx-2" href="https://github.com/bdesollar"><i className="fab fa-github"></i></a>
                     <a className="mx-2" href="https://www.linkedin.com/in/ben-desollar/"><i

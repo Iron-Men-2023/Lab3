@@ -11661,6 +11661,11 @@ body {
     border: 0;
 }
 
+.comment-section {
+    padding: 10rem 0;
+    height: 20vh;
+}
+
 .contact-section {
     padding-top: 5rem;
 }
