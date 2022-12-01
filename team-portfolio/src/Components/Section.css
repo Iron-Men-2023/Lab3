@@ -7,6 +7,13 @@
     border-radius: 20px;
     margin-top: 2vh;
 }
+.sect2{
+    width: 40vw;
+    height: 8vh;
+    background-color: gold;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
 .title{
     color: #5289fa;
     margin-right: 25vw;

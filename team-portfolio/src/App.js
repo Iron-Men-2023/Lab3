@@ -14,6 +14,7 @@ import JoslinAbout from "./Components/JoslinAbout";
 import Adnane from './Components/adnane';
 import Home from './Components/Home';
 import Justin from "./Components/Justin"
+import JustinEducation from "./Components/JustinEducation";
 function App() {
   return (
     <div className="App" >
@@ -29,6 +30,7 @@ function App() {
             <Route path='/joslin/About' element={<JoslinAbout/>}/>
             <Route path='/adnane' element={<Adnane/>} />
             <Route path='/Justin' element={<Justin/>} />
+            <Route path='/Justin/education' element={<JustinEducation/>} />
             <Route path='/' element={<Home/>} />
             <Route path='/ben' element={<BensPage/>}/>
             <Route path='/ben' element={<BensPage/>}/>

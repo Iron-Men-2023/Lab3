@@ -3,14 +3,22 @@
     width: 100vw;
     height: 100vh;
 }
-
+.jpage2{
+    background-color: rgb(12, 12, 12);
+    width: 100vw;
+    height: 20vh;
+}
 .jimg{
     width: 30vw;
     height: 60vh;
     margin-top: 20vh;
     margin-left: 1vw;
 }
-
+.jedu{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+}
 .jh1{
     color: rgb(29, 221, 189);;
     font-size: 4rem;
@@ -46,4 +54,12 @@
 
 .down{
 
+}
+
+.classes{
+    margin-left: 20vw;
+    margin-top: 6vh;
+}
+.jlow{
+    margin-top: 6vh;
 }
