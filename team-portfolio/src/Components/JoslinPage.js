@@ -1,11 +1,12 @@
 import React from 'react';
 import Joslin from "../img/JoslinmacbookSD.png"
 import "./JoslinPage.css"
-import linkedIn from "../img/linkedIn.jpg"
+import linkedIn from "../img/comment.png"
 import Option from "./option";
 import {ExternalLink} from "react-external-link";
 import IronMan from "../img/ironMan3.gif"
 import PageWithComments from "./PageWithComments";
+import resume from "../img/JoslinResume1022.pdf"
 function JoslinPage(props) {
     return (
         <div className=''>
@@ -19,12 +20,12 @@ function JoslinPage(props) {
                     <div className='row1'>
                         <Option title="Experience" link="/joslin/Experience"/>
                         <Option title='About Me' link="/joslin/About"/>
-                        <ExternalLink href="https://www.linkedin.com/in/saanbé-joslin-somé-1726581a9" className='nav-links linkedin'>
-                            <img src ={linkedIn}/>
-                        </ExternalLink>
+                        <a href="#comment" className='nav-links linkedin'>
+                            <button className="comment2">Add Comment</button>
+                        </a>
                     </div>
                     <div className='row1'>
-                        <Option title="Resume" link="/joslin/Resume"/>
+                        <Option title="Resume" link={resume}/>
                         <Option title="Projects" link="/joslin/Projects"/>
                     </div>
                 </div>
@@ -34,9 +35,13 @@ function JoslinPage(props) {
                         <img src={Joslin} className="joslin"/>
 
                 </div>
+                <br/>
+                <br/>
+                <section id="comment">
+                    <PageWithComments/>
+                </section>
 
             </div>
-            <PageWithComments/>
 
         </div>
     );

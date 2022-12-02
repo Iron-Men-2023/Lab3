@@ -30,9 +30,6 @@ function Navbar(props) {
 
                     </li>
                     <li>
-                        {/*<ExternalLink href="https://bdesollar.github.io/" className='nav-links'>*/}
-                        {/*    <h2>Ben</h2>*/}
-                        {/*</ExternalLink>*/}
                         <Link to='/ben' className='nav-links'>
                             <h2>Ben</h2>
                         </Link>

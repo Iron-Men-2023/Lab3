@@ -10,6 +10,7 @@ import {ExternalLink} from "react-external-link";
 import linkedIn from "../img/linkedIn.jpg";
 import github from "../img/github.png";
 import fb from "../img/fb.png";
+import resume from "../img/JustinResume.pdf"
 import gram from "../img/gram.png";
 function Justin(props) {
     return (
@@ -32,9 +33,9 @@ function Justin(props) {
                         <br/>
                         <div className="row1">
                                 <a href="#education" className="nav-links"><button className="jbtn">Education</button></a>
-                            <Link className="nav-links">
+                            <a className="nav-links" href={resume} target="_blank">
                                 <button className="jbtn">Resume</button>
-                            </Link>
+                            </a>
                             <a className="nav-links" href="#comment">
                                 <button className="jbtn">Comment</button>
                             </a>

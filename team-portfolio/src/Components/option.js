@@ -8,10 +8,14 @@ function Option(props) {
     return (
 
         <div  >
-
-            <Link to={link} className='option'>
-                <h3 className="h2">{title}</h3>
+            {title==="Resume"?
+            <Link to={link} className='option' target="_blank">
+                <h4 className="h2">{title}</h4>
             </Link>
+                :
+            <Link to={link} className='option'>
+                <h4 className="h2">{title}</h4>
+            </Link>}
         </div>
     );
 }

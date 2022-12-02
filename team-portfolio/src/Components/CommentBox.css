@@ -9,6 +9,13 @@
     display: flex;
     flex-direction: column-reverse;
 }
+.comment2{
+    background-color: blue;
+    width: 15vw;
+    height: 10vh;
+    color: white;
+    border-radius: 10px;
+}
 .line{
     background-color: black;
     width: 24vw;

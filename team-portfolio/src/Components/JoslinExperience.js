@@ -24,10 +24,8 @@ function JoslinExperience(props) {
             <Link to="/joslin" className="link">
                 <img src={Back} className="back"/>
             </Link>
-            <row>
-                <Section title="Software Engineer Intern: Coda Project Inc: 05/2022-08/2022" tasks={codaTasks}/>
+            <Section title="Software Engineer Intern: Coda Project Inc: 05/2022-08/2022" tasks={codaTasks}/>
 
-            </row>
             <br/>
             <Section title="Engineering Fellow: Kleiner Perkins: 05/2022-08/2022" tasks={KPTasks}/>
             <br/>

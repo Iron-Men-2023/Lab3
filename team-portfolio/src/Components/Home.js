@@ -19,19 +19,15 @@ export default function Home() {
     }, [])
     return (
         <div>
-            <img src={homeGif} alt="loading..." style={{ "right": 0, "position": "absolute" }} />
+            <img src={homeGif} alt="loading..." style={{ "right": 0, "position": "absolute", height: "15vh" }} />
 
-            <div className='adnane-container' style={{ background: "#aa0505", height: "100%" }}>
+            <div className='adnane-container' style={{ background: "#aa0505", height: "40vh" }}>
 
                 <div className='adnane-text-area'>
 
                     <h1 style={{ color: "#fbca03" }}> We are Iron-Men</h1>
                 </div>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                <br/>
                 <Row>
                     <Col>
                         <div className="nav-links2" onMouseOver={()=> setImg(Adnane)}>
