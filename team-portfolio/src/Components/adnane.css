@@ -476,11 +476,12 @@ ul.social li a.fa-envelope {
 
 .bottom-image{
 	height: 50vh;
-	width: 30%;
-	margin-right: 70vw;
+	width: 33.33%;
 }
 .bottom{
 	opacity: 1;
-	background-color: #276afb;
 	height: 50vh;
+}
+.color{
+	color: #fbca03;
 }
