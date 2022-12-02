@@ -23,8 +23,8 @@
     margin-right: 18vw;
 }
 .connect{
-    margin-right: 78vw;
     color: white;
+    text-align: left;
 }
 .phone{
     margin-right:73vw ;
@@ -39,7 +39,7 @@
 }
 .about{
     background-color: black;
-    height: 150%;
+    height: 160vh;
 }
 .text{
     margin-left: 4vw;
@@ -70,4 +70,5 @@
     color: #242424;
 }
 .joslinpic{
+    height: 55vh;
 }

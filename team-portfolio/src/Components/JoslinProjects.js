@@ -31,11 +31,9 @@ function JoslinProjects(props) {
         <div className="page1">
             <br/>
             <br/>
-            <br/>
-            <br/>
             <div className="row1">
                 <Link to="/joslin">
-                    <img src={back} />
+                    <img src={back} className="backArrow"/>
                 </Link>
                 <h1 className= "h11">My Projects</h1>
 

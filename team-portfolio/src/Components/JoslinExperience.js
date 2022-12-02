@@ -22,10 +22,9 @@ function JoslinExperience(props) {
     return (
         <div className="experience">
             <Link to="/joslin" className="link">
-                <img src={Back} className="back"/>
+                <img src={Back} className="back backArrow"/>
             </Link>
             <Section title="Software Engineer Intern: Coda Project Inc: 05/2022-08/2022" tasks={codaTasks}/>
-
             <br/>
             <Section title="Engineering Fellow: Kleiner Perkins: 05/2022-08/2022" tasks={KPTasks}/>
             <br/>

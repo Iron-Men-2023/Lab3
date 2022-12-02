@@ -21,7 +21,7 @@ function JoslinPage(props) {
                         <Option title="Experience" link="/joslin/Experience"/>
                         <Option title='About Me' link="/joslin/About"/>
                         <a href="#comment" className='nav-links linkedin'>
-                            <button className="comment2">Add Comment</button>
+                            <button className="comment2"><h2>Add Comment</h2></button>
                         </a>
                     </div>
                     <div className='row1'>

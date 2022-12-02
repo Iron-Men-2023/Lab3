@@ -37,6 +37,16 @@
     animation-direction : alternate;
     animation-duration : 1s;
 }
+.backArrow{
+    animation-name : mymove3;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 1s;
+}
+@keyframes mymove3 {
+    from {transform: translateX(0px);}
+    to {transform: translateX(20px);}
+}
 .linkedin{
     margin-left: 40vw;
 
