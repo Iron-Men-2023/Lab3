@@ -1,5 +1,5 @@
 
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import bg from "../images/bg.png"
 import './adnane.css'
 import Col from 'react-bootstrap/Col';
@@ -14,6 +14,9 @@ export default function Home() {
     const [img,setImg] = useState(main)
     const [text,setText] = useState("")
     const [title,setTitle] = useState("")
+    useEffect(() => {
+        document.title = "Ironmen Portfolio"
+    }, [])
     return (
         <div>
             <img src={homeGif} alt="loading..." style={{ "right": 0, "position": "absolute" }} />
