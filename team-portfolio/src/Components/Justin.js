@@ -26,9 +26,9 @@ function Justin(props) {
                         <h2 className="jh2"> Electrical Engineer</h2>
                         <br/>
                         <h3 className="jh3">Senior Electrical Engineering student at the University of Iowa</h3>
-                        <h3 className="jh3">I dont know what to write here but feel like there should be text</h3>
-                        <h3 className="jh3">I dont know what to write here but feel like there should be text</h3>
-                        <h3 className="jh3">Born and raised in ..... Iowa </h3>
+                        <h3 className="jh3">I enjoy spending time outside doing just about anything</h3>
+                        <h3 className="jh3">You'll probably catch me biking, fishing or working out</h3>
+                        <h3 className="jh3">Born and raised in Farley Iowa </h3>
                         <br/>
                         <div className="row1">
                                 <a href="#education" className="nav-links"><button className="jbtn">Education</button></a>
