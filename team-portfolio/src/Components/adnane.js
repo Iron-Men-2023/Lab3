@@ -17,6 +17,8 @@ import ironMan2 from '../images/ironManAdnane2.gif'
 import ironManJ from '../img/ironMan.gif'
 import PageWithComments from "./PageWithComments";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Adnane = () => {
     return (
@@ -97,7 +99,7 @@ const Adnane = () => {
                     </div>
                 </div>
             </article>
-            <PageWithComments/>
+            
             <article class="article">
                 <div class="adnane-container">
                     <div class="adnane-text-area">
@@ -190,7 +192,7 @@ const Adnane = () => {
 
             </article>
 
-
+            <PageWithComments/> 
 
 
 
